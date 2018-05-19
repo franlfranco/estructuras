@@ -40,7 +40,7 @@ void cargar_sexo(alumno a[],int pos){
 int cargar(alumno a[]){
    char control='s';
    int i=0;
-   while(control=='s'&&i<columna){
+   while(control=='s'&&i<20){
       cargar_matricula(a,i);
       cargar_nombre(a,i);
       cargar_sexo(a,i);
